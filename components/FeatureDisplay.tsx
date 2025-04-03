@@ -8,7 +8,7 @@ export default function FeatureDisplay() {
         <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">See How It Works</h2>
         
         <div className="max-w-3xl mx-auto mb-12">
-          <div className="bg-white p-6 rounded-xl shadow-md">
+          <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
             <h3 className="text-xl font-semibold mb-4 text-gray-800">Our Process</h3>
             <ol className="space-y-4">
               <li className="flex">
@@ -38,7 +38,7 @@ export default function FeatureDisplay() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Profile Section */}
-          <div className="bg-white p-6 rounded-xl shadow-md">
+          <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
             <h3 className="text-xl font-semibold mb-4 text-gray-800">Profile Analysis</h3>
             
             <div className="mb-6">
@@ -72,7 +72,7 @@ export default function FeatureDisplay() {
           </div>
           
           {/* Message Section */}
-          <div className="bg-white p-6 rounded-xl shadow-md flex flex-col justify-between">
+          <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col justify-between">
             <div>
               <h3 className="text-xl font-semibold mb-4 text-gray-800">AI-Generated Message</h3>
               
@@ -103,7 +103,7 @@ export default function FeatureDisplay() {
               <div className="flex testimonial-slides transition-transform duration-500 ease-in-out">
                 {/* Testimonial 1 */}
                 <div className="testimonial-slide min-w-full">
-                  <div className="bg-white p-6 rounded-xl shadow-md">
+                  <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                     <div className="flex items-center mb-4">
                       <div className="w-14 h-14 rounded-full bg-gray-300 overflow-hidden">
                         <img src="https://randomuser.me/api/portraits/men/81.jpg" alt="Reviewer" className="w-full h-full object-cover" />
@@ -127,7 +127,7 @@ export default function FeatureDisplay() {
                 
                 {/* Testimonial 2 */}
                 <div className="testimonial-slide min-w-full">
-                  <div className="bg-white p-6 rounded-xl shadow-md">
+                  <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                     <div className="flex items-center mb-4">
                       <div className="w-14 h-14 rounded-full bg-gray-300 overflow-hidden">
                         <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Reviewer" className="w-full h-full object-cover" />
@@ -151,7 +151,7 @@ export default function FeatureDisplay() {
                 
                 {/* Testimonial 3 */}
                 <div className="testimonial-slide min-w-full">
-                  <div className="bg-white p-6 rounded-xl shadow-md">
+                  <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                     <div className="flex items-center mb-4">
                       <div className="w-14 h-14 rounded-full bg-gray-300 overflow-hidden">
                         <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Reviewer" className="w-full h-full object-cover" />
@@ -175,7 +175,7 @@ export default function FeatureDisplay() {
                 
                 {/* Testimonial 4 */}
                 <div className="testimonial-slide min-w-full">
-                  <div className="bg-white p-6 rounded-xl shadow-md">
+                  <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                     <div className="flex items-center mb-4">
                       <div className="w-14 h-14 rounded-full bg-gray-300 overflow-hidden">
                         <img src="https://randomuser.me/api/portraits/men/62.jpg" alt="Reviewer" className="w-full h-full object-cover" />
@@ -212,12 +212,12 @@ export default function FeatureDisplay() {
             </div>
             
             {/* Navigation Arrows */}
-            <button className="absolute top-1/2 -left-4 transform -translate-y-1/2 w-10 h-10 rounded-full bg-white shadow-md flex items-center justify-center focus:outline-none" aria-label="Previous slide">
+            <button className="absolute top-1/2 -left-4 transform -translate-y-1/2 w-10 h-10 rounded-full bg-white shadow-sm border border-gray-100 flex items-center justify-center focus:outline-none hover:bg-gray-50 transition-colors" aria-label="Previous slide">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
               </svg>
             </button>
-            <button className="absolute top-1/2 -right-4 transform -translate-y-1/2 w-10 h-10 rounded-full bg-white shadow-md flex items-center justify-center focus:outline-none" aria-label="Next slide">
+            <button className="absolute top-1/2 -right-4 transform -translate-y-1/2 w-10 h-10 rounded-full bg-white shadow-sm border border-gray-100 flex items-center justify-center focus:outline-none hover:bg-gray-50 transition-colors" aria-label="Next slide">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
