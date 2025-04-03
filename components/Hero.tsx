@@ -16,7 +16,7 @@ export default function Hero() {
           <div className="flex items-start space-x-4">
             <div className="flex-shrink-0">
               <div className="w-12 h-12 rounded-full bg-gray-300 overflow-hidden">
-                <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="Profile" className="w-full h-full object-cover" />
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profile" className="w-full h-full object-cover" />
               </div>
             </div>
             <div className="flex-1 text-left">
