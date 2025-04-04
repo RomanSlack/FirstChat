@@ -78,7 +78,7 @@ export default function FeatureDisplay() {
               
               <div className="bg-indigo-50 p-5 rounded-xl mb-8">
                 <p className="text-gray-800">
-                  "Hi Sophia! I was blown away by your sunrise shots from what looks like Sedona - the colors are incredible! I've been hiking those trails myself and can never seem to capture the landscape that well. What's your secret for those perfect composition shots? Also, if you're up for an adventure, I found this amazing hidden waterfall trail that would be perfect for your photography style."
+                  Hey Sophia, it sounds like we both have an eye for capturing the beauty of the outdoors—your hiking gear caught my attention! What’s the most memorable spot you’ve discovered on your adventures so far?
                 </p>
               </div>
             </div>
